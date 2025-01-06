@@ -1,8 +1,0 @@
-PING 192.168.2.208 (192.168.2.208) 56(84) bytes of data.
-64 bytes from 192.168.2.208: icmp_seq=1 ttl=64 time=2044 ms
-64 bytes from 192.168.2.208: icmp_seq=2 ttl=64 time=1025 ms
-64 bytes from 192.168.2.208: icmp_seq=3 ttl=64 time=0.863 ms
-
---- 192.168.2.208 ping statistics ---
-3 packets transmitted, 3 received, 0% packet loss, time 2043ms
-rtt min/avg/max/mdev = 0.863/1023.333/2044.283/834.223 ms, pipe 3

@@ -1,1 +1,0 @@
-curl -k -L -X GET 'https://192.168.102.181/api/host_inventory/host_interface_pcie_device_function_info' -H 'Content-Type: application/json' -H 'Cookie: QSESSIONID=2e3f5e31340beeb22eI7MO8Cdzn8P1' -H 'X-CSRFTOKEN: a2pluh3l'
