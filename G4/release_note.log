@@ -1,0 +1,123 @@
+
+
+1. Add SEL clear in create Golden Sample step.
+2. Ignore "Wake-up Type" in System info.
+3. Add scripts status while booting into OS.
+4. Add Golden Sample and Result file in html format.
+5. Add keyword "going", "critical", "upper" and "lower" in abnormal SEL analysis.
+6. Modify maximum loop over 1000 cycles.
+7. Modify "Analysis_BMC_Dmesg" "Record_dmesg" check items order.
+8. Remove virtual USB device check.
+9. Implement SATA, mptsas, megaraid,LSI detect/check function.
+10. Implement JBOD AC power on/off status control.
+11. Fixed AC force shutdown doesn't work in remote AC stress mode.
+
+
+
+20231222:
+1. Remove the espcape character backup folder name.
+   (Original format: 2023-10-05-09:52:30-AC_test_logs, can't be download via MobaXterm)
+   (New format: 20231005095230_AC_test_logs)
+2. Enhance script to get and compare the SATA and NVME SSD infomation.
+   (Due to the SSD initial time is different and cause the SSD name may be changed after AC cycle.)
+   (EX: The same SSD in 1st loop is /dev/sdf or nvme0n1, then 2nd loop may be changed to /dev/sdj or nvme1n1.)
+3. Add the "$pwd"Fail_items_detail.log and sort the fail items in "$pwd"Fail_items_simple.log
+4. User can modify the remote DC off delay time.
+   (Loop_script default DC off for 25 seconds and then power on, but AMD CPU need more than 25 seconds for discharging.)
+5. Add [Hardware Error] detection in hardware_journalctl_error_fail.log (dmesg service implement.)
+6. Enhance BMC channel #8 detection in AC cycle.
+7. Update JBOD mode AC steps.
+8. Modify contrast condition form "or" to "and". Enhance to detect the extra/abnormal event in SEL.
+9. Add RTC wake on timing setting for user define.
+10. Add SUT firmware information in test log.
+11. Add lspci device missing debug message "lspci -tv".
+12. Add remote test BMC revision shows up.
+13. Modify NIC_link script to ignore port name and enhance the contrast sequence.
+    (Insert 2 above NIC cards will affect net ports initial.)
+14. Add stress log backup and naming rule.
+15. Enhance Debug Mode exit behavior in remote/local cycle.
+16. Modify "Get_PCI_device_info.sh" to get PCI device bus id in RHEL#9.0.
+    (RHEL#9.0 will show extra bus id "0000:" to pci_dev. Rocky linux and ubuntu are not.)
+17. Modify nvflash to get GPU vBIOS version.
+
+
+
+
+20230922:
+1. Add force shutdown SUT OS by BMC chassis power off.
+   (Prevent the OS hang-up in shutdown processing. RTC DC only support "shutdown -h" due to chassis power off is not a normal shutdown process.)
+2. Add JBOD AC function.
+3. Modify SATA detection script if SSD detection over 26 pcs.
+4. Add client SEL analysis.
+5. Modify the waiting time from 3s -> 1s.
+6. Add test environment software package/tools install selections.
+
+20230901:
+1. Merge Ubuntu and other Linux OS script.
+   (Script will detect the OS of SUT and install relatived tool/sw package automatically.)
+2. Add Memory size check within ±3% tolerance.
+3. Add remote client redfish function check FW enable/disable.
+   (Because redfish function doesn't ready at the EVT, sometime AC will hang-up if redfishtool shows the unauthorized error.)
+4. Replace "OS Critical Stop #0x87" test event to "OS Boot #0x87"
+   (avoid misunderstanding string.)
+
+20230714:
+1. Disable manual fill in BMC info and add configuration to record multi-BMC info.
+2. Support VPD info for add-on cards.
+3. Add BMC release date info.
+4. Add vBIOS of GPU info.
+5. Add memory error count for rasdaemon function (both Intel and AMD).
+6. Support multi-sled AC for local SUT and remote client.
+
+20230524:
+1. Modify Check_version function.
+2. Add delay time after booting into OS. Default is 30 seconds.
+3. Add test method recoder in Loop.conf and backup test folder.
+4. Add firmware info scanned by redfish to auto-detect /redfish/v1/FirmwareInventory/ in remote client.
+5. Add lazy mode in configuration file.
+6. Add BMC and OS boot time.
+7. Add OS shutdown time record in test folder.
+8. Add HW device scan by restful in remote client script.
+9. Delete test folder and add BMC reset and System auto-off function.
+10. Modify Get_NIC_connection.sh to isolate the docker/virtual/USB  NIC.
+11. Add test event 0x87 in scripts.
+12. Modify Non-ESBU Server IPMI command to auto-detect command supported or not.
+
+20230424:
+1. Fixed APC returns inccorrect status.
+2. Update boot completed event to match Server BU BMC.
+	>>  Platform Security #0x99 | State Asserted | Asserted
+	>>  OS Boot #0x03 | Diagnostic boot completed | Asserted
+3. APC control tool release test:
+   setting:
+   1. Modify apc.py line #8 for APC IP.
+      >> tn = telnetlib.Telnet("192.168.101.100")
+      line #14 for APC username login
+	  >> tn.write(b"apc" + b"\r")
+	  line #19 for APC password login
+	  >> tn.write(b"apc" + b"\r")
+	  
+   command: 
+	[root@localhost BMC_auto_script]# python3 apc.py 2 status
+	[b'olstatus 2', b' 2: Outlet 2: On ', b'E000: Success', b'']
+	[root@localhost BMC_auto_script]# ^C
+	[root@localhost BMC_auto_script]# python3 apc.py 2 off
+	[b'oloff 2', b'E000: Success', b'']
+	[root@localhost BMC_auto_script]# python3 apc.py 2 status
+	[b'olstatus 2', b' 2: Outlet 2: Off ', b'E000: Success', b'']
+	[root@localhost BMC_auto_script]# python3 apc.py 2 on
+	[b'olon 2', b'E000: Success', b'']
+	[root@localhost BMC_auto_script]# python3 apc.py 2 status
+	[b'olstatus 2', b' 2: Outlet 2: On ', b'E000: Success', b'']
+	[root@localhost BMC_auto_script]#
+
+
+	[root@localhost BMC_auto_script]# python3 apc.py 2,3 off
+	[b'oloff 2,3', b'E000: Success', b'']
+	[root@localhost BMC_auto_script]# python3 apc.py 2,3 status
+	[b'olstatus 2,3', b' 2: Outlet 2: Off ', b' 3: Outlet 3: Off ', b'E000: Success', b'']
+	[root@localhost BMC_auto_script]# python3 apc.py 2,3 on
+	[b'olon 2,3', b'E000: Success', b'']
+	[root@localhost BMC_auto_script]# python3 apc.py 2,3 status
+	[b'olstatus 2,3', b' 2: Outlet 2: On ', b' 3: Outlet 3: On ', b'E000: Success', b'']
+	[root@localhost BMC_auto_script]#

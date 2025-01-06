@@ -1,0 +1,1175 @@
+
+
+Input the stress cycles: 
+
+Check the APC status
+
+PING 192.168.2.12 (192.168.2.12) 56(84) bytes of data.
+64 bytes from 192.168.2.12: icmp_seq=1 ttl=255 time=5.65 ms
+64 bytes from 192.168.2.12: icmp_seq=2 ttl=255 time=5.38 ms
+64 bytes from 192.168.2.12: icmp_seq=3 ttl=255 time=4.07 ms
+64 bytes from 192.168.2.12: icmp_seq=4 ttl=255 time=3.07 ms
+64 bytes from 192.168.2.12: icmp_seq=5 ttl=255 time=3.38 ms
+
+--- 192.168.2.12 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 3.067/4.309/5.654/1.039 ms
+
+Connect APC: 192.168.2.12 successfully.
+
+
+______________________________________1______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 九時36分廿八秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 九時37分37秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 九時37分46秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 九時40分十五秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 九時40分49秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.155 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.127 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.120 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.195 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________2______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 九時41分38秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 九時42分47秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 九時42分56秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 九時45分廿五秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 九時45分59秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.203 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.176 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.200 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.152 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________3______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 九時46分48秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 九時47分57秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 九時48分六秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 九時50分35秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 九時51分十秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.202 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.192 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.154 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.145 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________4______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 九時51分59秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 九時53分八秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 九時53分十七秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 九時55分47秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 九時56分廿秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.204 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.062 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.181 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.194 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________5______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 九時57分九秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 九時58分十八秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 九時58分廿七秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時〇分57秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時一分卅秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.158 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.194 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.162 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.200 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________6______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時二分十九秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時三分廿八秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時三分37秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時六分七秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時六分40秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.194 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.136 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.196 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.172 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________7______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時七分廿九秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時八分38秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時八分47秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時十一分十七秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時十一分53秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.194 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.161 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.191 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.176 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________8______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時十二分41秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時十三分51秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時十四分〇秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時十六分廿九秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時十七分三秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.190 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.188 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.153 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.203 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________9______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時十七分52秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時十九分一秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時十九分十秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時廿一分39秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時廿二分十三秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.200 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.192 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.161 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.212 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________10______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時廿三分一秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時廿四分十一秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時廿四分廿秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時廿六分49秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時廿七分廿四秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.189 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.201 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.194 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.144 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________11______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時廿八分十二秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時廿九分廿二秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時廿九分卅一秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時32分〇秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時32分34秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.159 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.210 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.206 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.161 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________12______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時33分廿二秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時34分32秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時34分41秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時37分十秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時37分44秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.157 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.148 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.173 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.150 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________13______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時38分32秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時39分42秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時39分51秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時42分廿秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時42分54秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.196 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.198 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.206 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.140 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________14______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時43分43秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時44分52秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時45分一秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時47分卅秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時48分四秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.192 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.191 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.206 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.204 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________15______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時48分53秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時50分二秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時50分十一秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時52分40秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時53分十四秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.205 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.203 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.195 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.200 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________16______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時54分三秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十時55分十二秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十時55分廿一秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十時57分51秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十時58分廿四秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.203 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.186 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.185 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.164 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________17______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十時59分十三秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十一時〇分廿二秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十一時〇分卅一秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十一時三分一秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十一時三分34秒
+
+
+PING 192.168.2.209 (192.168.2.209) 56(84) bytes of data.
+64 bytes from 192.168.2.209: icmp_seq=1 ttl=64 time=0.202 ms
+64 bytes from 192.168.2.209: icmp_seq=2 ttl=64 time=0.186 ms
+64 bytes from 192.168.2.209: icmp_seq=3 ttl=64 time=0.192 ms
+64 bytes from 192.168.2.209: icmp_seq=4 ttl=64 time=0.162 ms
+
+Connect SUT1: 192.168.2.209 successfully.
+
+SUT1 AC cycle done
+
+
+
+______________________________________18______________________________________
+
+APC off port 1
+
+APC Port: 1 is OFF 
+
+
+公曆 20廿四年 十一月 十八日 週一 十一時四分廿三秒
+
+.....................................................................
+公曆 20廿四年 十一月 十八日 週一 十一時五分32秒
+
+
+APC on port 1
+
+APC Port: 1 is ON 
+
+Wait for target SUT booting done
+
+
+公曆 20廿四年 十一月 十八日 週一 十一時五分41秒
+
+.....................................................................................................................................................
+公曆 20廿四年 十一月 十八日 週一 十一時八分十一秒
+
+Wait for SUT1 boot done
+Connect to SUT1 retry: 1
+
+公曆 20廿四年 十一月 十八日 週一 十一時八分44秒
+
+Connect to SUT1 retry: 2
+
+公曆 20廿四年 十一月 十八日 週一 十一時九分十八秒
+
+Connect to SUT1 retry: 3
+
+公曆 20廿四年 十一月 十八日 週一 十一時十分一秒
+
+Connect to SUT1 retry: 4
+
+公曆 20廿四年 十一月 十八日 週一 十一時十分43秒
+
+Connect to SUT1 retry: 5
+
+公曆 20廿四年 十一月 十八日 週一 十一時十一分廿六秒
+
+Connect to SUT1 retry: 6
+
+公曆 20廿四年 十一月 十八日 週一 十一時十二分八秒
+
+Connect to SUT1 retry: 7
+
+公曆 20廿四年 十一月 十八日 週一 十一時十二分51秒
+
+Connect to SUT1 retry: 8
+
+公曆 20廿四年 十一月 十八日 週一 十一時十三分33秒
+
+Connect to SUT1 retry: 9
+
+公曆 20廿四年 十一月 十八日 週一 十一時十四分十五秒
+
+Connect to SUT1 retry: 10
+
+公曆 20廿四年 十一月 十八日 週一 十一時十四分58秒
+
+Connect to SUT1 retry: 11
+
+公曆 20廿四年 十一月 十八日 週一 十一時十五分40秒
+
+Connect to SUT1 retry: 12
+
+公曆 20廿四年 十一月 十八日 週一 十一時十六分廿三秒
+
+Connect to SUT1 retry: 13
+
+公曆 20廿四年 十一月 十八日 週一 十一時十七分五秒
+
+Connect to SUT1 retry: 14
+
+公曆 20廿四年 十一月 十八日 週一 十一時十七分48秒
+
+Connect to SUT1 retry: 15
+
+公曆 20廿四年 十一月 十八日 週一 十一時十八分卅秒
+
+Connect to SUT1 retry: 16
+
+公曆 20廿四年 十一月 十八日 週一 十一時十九分十三秒
+
+Connect to SUT1 retry: 17
+
+公曆 20廿四年 十一月 十八日 週一 十一時十九分55秒
+
+Connect to SUT1 retry: 18
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿分38秒
+
+Connect to SUT1 retry: 19
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿一分廿秒
+
+Connect to SUT1 retry: 20
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿二分三秒
+
+Connect to SUT1 retry: 21
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿二分45秒
+
+Connect to SUT1 retry: 22
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿三分廿八秒
+
+Connect to SUT1 retry: 23
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿四分十秒
+
+Connect to SUT1 retry: 24
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿四分52秒
+
+Connect to SUT1 retry: 25
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿五分35秒
+
+Connect to SUT1 retry: 26
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿六分十七秒
+
+Connect to SUT1 retry: 27
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿七分〇秒
+
+Connect to SUT1 retry: 28
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿七分42秒
+
+Connect to SUT1 retry: 29
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿八分廿五秒
+
+Connect to SUT1 retry: 30
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿九分七秒
+
+Connect to SUT1 retry: 31
+
+公曆 20廿四年 十一月 十八日 週一 十一時廿九分50秒
+
+Connect to SUT1 retry: 32
+
+公曆 20廿四年 十一月 十八日 週一 十一時卅分32秒
+
+Connect to SUT1 retry: 33
+
+公曆 20廿四年 十一月 十八日 週一 十一時卅一分十五秒
+
+Connect to SUT1 retry: 34
+
+公曆 20廿四年 十一月 十八日 週一 十一時卅一分57秒
+
+Connect to SUT1 retry: 35
+
+公曆 20廿四年 十一月 十八日 週一 十一時32分40秒
+
+Connect to SUT1 retry: 36
+
+公曆 20廿四年 十一月 十八日 週一 十一時33分廿二秒
+
+Connect to SUT1 retry: 37
+
+公曆 20廿四年 十一月 十八日 週一 十一時34分五秒
+
+Connect to SUT1 retry: 38
+
+公曆 20廿四年 十一月 十八日 週一 十一時34分47秒
+
+Connect to SUT1 retry: 39
+
+公曆 20廿四年 十一月 十八日 週一 十一時35分卅秒
+
+Connect to SUT1 retry: 40
+
+公曆 20廿四年 十一月 十八日 週一 十一時36分十二秒
+
+Connect to SUT1 retry: 41
+
+公曆 20廿四年 十一月 十八日 週一 十一時36分55秒
+
+Connect to SUT1 retry: 42
+
+公曆 20廿四年 十一月 十八日 週一 十一時37分37秒
+
+Connect to SUT1 retry: 43
+
+公曆 20廿四年 十一月 十八日 週一 十一時38分廿秒
+
+Connect to SUT1 retry: 44
+
+公曆 20廿四年 十一月 十八日 週一 十一時39分二秒
+
+Connect to SUT1 retry: 45
+
+公曆 20廿四年 十一月 十八日 週一 十一時39分45秒
+
+Connect to SUT1 retry: 46
+
+公曆 20廿四年 十一月 十八日 週一 十一時40分廿七秒
+
+Connect to SUT1 retry: 47
+
+公曆 20廿四年 十一月 十八日 週一 十一時41分十秒
+
+Connect to SUT1 retry: 48
+
+公曆 20廿四年 十一月 十八日 週一 十一時41分52秒
+
+Connect to SUT1 retry: 49
+
+公曆 20廿四年 十一月 十八日 週一 十一時42分35秒
+
+Connect to SUT1 retry: 50
+
+公曆 20廿四年 十一月 十八日 週一 十一時43分十七秒
+
+Connect to SUT1 retry: 51
+
+公曆 20廿四年 十一月 十八日 週一 十一時44分〇秒
+
+Connect to SUT1 retry: 52
+
+公曆 20廿四年 十一月 十八日 週一 十一時44分42秒
+
+Connect to SUT1 retry: 53
+
+公曆 20廿四年 十一月 十八日 週一 十一時45分廿五秒
+
+Connect to SUT1 retry: 54
+
+公曆 20廿四年 十一月 十八日 週一 十一時46分七秒
+
+Connect to SUT1 retry: 55
+
+公曆 20廿四年 十一月 十八日 週一 十一時46分50秒
+
+Connect to SUT1 retry: 56
+
+公曆 20廿四年 十一月 十八日 週一 十一時47分32秒
+
+Connect to SUT1 retry: 57
+
+公曆 20廿四年 十一月 十八日 週一 十一時48分十五秒
+
+Connect to SUT1 retry: 58
+
+公曆 20廿四年 十一月 十八日 週一 十一時48分57秒
+
+Connect to SUT1 retry: 59
+
+公曆 20廿四年 十一月 十八日 週一 十一時49分40秒
+
+Connect to SUT1 retry: 60
+
+公曆 20廿四年 十一月 十八日 週一 十一時50分廿二秒
+
+Connect to SUT1 retry: 61
+
+公曆 20廿四年 十一月 十八日 週一 十一時51分五秒
+
+Connect to SUT1 retry: 62
+
+公曆 20廿四年 十一月 十八日 週一 十一時51分47秒
+
+Connect to SUT1 retry: 63
+
+公曆 20廿四年 十一月 十八日 週一 十一時52分卅秒
+
+Connect to SUT1 retry: 64
+
+公曆 20廿四年 十一月 十八日 週一 十一時53分十二秒
+
+Connect to SUT1 retry: 65
+
+公曆 20廿四年 十一月 十八日 週一 十一時53分55秒
+
+Connect to SUT1 retry: 66
+
+公曆 20廿四年 十一月 十八日 週一 十一時54分37秒
+
+Connect to SUT1 retry: 67
+
+公曆 20廿四年 十一月 十八日 週一 十一時55分廿秒
+
+Connect to SUT1 retry: 68
+
+公曆 20廿四年 十一月 十八日 週一 十一時56分二秒
+
+Connect to SUT1 retry: 69
+
+公曆 20廿四年 十一月 十八日 週一 十一時56分45秒
+
+Connect to SUT1 retry: 70
+
+公曆 20廿四年 十一月 十八日 週一 十一時57分廿七秒
+
+Connect to SUT1 retry: 71
+
+公曆 20廿四年 十一月 十八日 週一 十一時58分十秒
+
+Connect to SUT1 retry: 72
+
+公曆 20廿四年 十一月 十八日 週一 十一時58分52秒
+
+Connect to SUT1 retry: 73
+
+公曆 20廿四年 十一月 十八日 週一 十一時59分35秒
+
+Connect to SUT1 retry: 74
+
+公曆 20廿四年 十一月 十八日 週一 十二時〇分十七秒
+
+Connect to SUT1 retry: 75
+
+公曆 20廿四年 十一月 十八日 週一 十二時一分〇秒
+
+Connect to SUT1 retry: 76
+
+公曆 20廿四年 十一月 十八日 週一 十二時一分42秒
+
+Connect to SUT1 retry: 77
+
+公曆 20廿四年 十一月 十八日 週一 十二時二分廿五秒
+
+Connect to SUT1 retry: 78
+
+公曆 20廿四年 十一月 十八日 週一 十二時三分七秒
+
+Connect to SUT1 retry: 79
+
+公曆 20廿四年 十一月 十八日 週一 十二時三分50秒
+
+Connect to SUT1 retry: 80
+
+公曆 20廿四年 十一月 十八日 週一 十二時四分32秒
+
+Connect to SUT1 retry: 81
+
+公曆 20廿四年 十一月 十八日 週一 十二時五分十五秒
+
+Connect to SUT1 retry: 82
+
+公曆 20廿四年 十一月 十八日 週一 十二時五分57秒
+
+Connect to SUT1 retry: 83
+
+公曆 20廿四年 十一月 十八日 週一 十二時六分40秒
+
+Connect to SUT1 retry: 84
+
+公曆 20廿四年 十一月 十八日 週一 十二時七分廿二秒
+
+Connect to SUT1 retry: 85
+
+公曆 20廿四年 十一月 十八日 週一 十二時八分五秒
+
+Connect to SUT1 retry: 86
+
+公曆 20廿四年 十一月 十八日 週一 十二時八分47秒
+
+Connect to SUT1 retry: 87
+
+公曆 20廿四年 十一月 十八日 週一 十二時九分卅秒
+
+Connect to SUT1 retry: 88
+
+公曆 20廿四年 十一月 十八日 週一 十二時十分十二秒
+
+Connect to SUT1 retry: 89
+
+公曆 20廿四年 十一月 十八日 週一 十二時十分55秒
+
+Connect to SUT1 retry: 90
+
+公曆 20廿四年 十一月 十八日 週一 十二時十一分37秒
+
+Connect to SUT1 retry: 91
+
+公曆 20廿四年 十一月 十八日 週一 十二時十二分廿秒
+
+Connect to SUT1 retry: 92
+
+公曆 20廿四年 十一月 十八日 週一 十二時十三分二秒
+
+Connect to SUT1 retry: 93
+
+公曆 20廿四年 十一月 十八日 週一 十二時十三分45秒
+
+Connect to SUT1 retry: 94
+
+公曆 20廿四年 十一月 十八日 週一 十二時十四分廿七秒
+
+Connect to SUT1 retry: 95
+
+公曆 20廿四年 十一月 十八日 週一 十二時十五分十秒
+
+Connect to SUT1 retry: 96
+
+公曆 20廿四年 十一月 十八日 週一 十二時十五分52秒
+
+Connect to SUT1 retry: 97
+
+公曆 20廿四年 十一月 十八日 週一 十二時十六分35秒
+
+Connect to SUT1 retry: 98
+
+公曆 20廿四年 十一月 十八日 週一 十二時十七分十七秒
+
+Connect to SUT1 retry: 99
+
+公曆 20廿四年 十一月 十八日 週一 十二時十八分〇秒
+
+Connect to SUT1 retry: 100
+Connect to SUT1 fail...

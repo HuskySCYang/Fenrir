@@ -1,0 +1,257 @@
+root@srd7-sqa:~/system_stress# ./UUT_loop_main.sh 
+
+Wait 30 for System ready.
+
+Thu Aug 22 02:36:16 AM EDT 2024
+
+.............................
+Thu Aug 22 02:36:45 AM EDT 2024
+
+2024-08-22 02:36:50
+Record_PCI test start..
+Record_PCI is going
+Record_PCI test done..
+2024-08-22 02:37:02
+
+Escape time: 12 
+
+2024-08-22 02:37:02
+Record_DMI test start..
+Record_DMI is going
+Record_DMI test done..
+2024-08-22 02:37:04
+
+Escape time: 2 
+
+2024-08-22 02:37:04
+Record_disk test start..
+Record_disk is going
+Record_disk test done..
+2024-08-22 02:37:06
+
+Escape time: 2 
+
+2024-08-22 02:37:06
+Record_BMC test start..
+Record_BMC is going
+FRU Device Description : Builtin FRU Device (ID 0)
+ Board Mfg Date        : Thu Feb  2 11:51:00 2023
+ Board Mfg             : FOXCONN
+ Board Product         : Cobalt Controller
+ Board Serial          : PPCFL22489256
+ Board Part Number     : PSO400101-001-G
+ Board Extra           : DD6DDE35A31911EDA7CE24A937000001
+ Board Extra           : DEV-001171
+
+FRU Device Description : powersupply0 (ID 1)
+ Device not present (Requested sensor, data, or record not found)
+
+FRU Device Description : powersupply1 (ID 2)
+ Product Manufacturer  : DELTA
+ Product Name          : DPS-1600AB-13 G
+ Product Part Number   : XXXXXXXXXXXXXXXXXXXX
+ Product Version       : S1F
+ Product Serial        : IWBD1848001225
+
+Device ID                 : 32
+Device Revision           : 0
+Firmware Revision         : 0.14
+IPMI Version              : 2.0
+Manufacturer ID           : 0
+Manufacturer Name         : Unknown
+Product ID                : 0 (0x0000)
+Product Name              : Unknown (0x0)
+Device Available          : yes
+Provides Device SDRs      : yes
+Additional Device Support :
+    Sensor Device
+    SEL Device
+    FRU Inventory Device
+    Chassis Device
+Aux Firmware Rev Info     : 
+    0x0b
+    0xad
+    0x00
+    0x10
+Mastership       | 0x00              | ok
+PSU0_Fan_Speed   | disabled          | ns
+PSU0_IIN         | disabled          | ns
+PSU0_IOUT        | disabled          | ns
+PSU0_PIN         | disabled          | ns
+PSU0_POUT        | disabled          | ns
+PSU0_TEMP_0      | disabled          | ns
+PSU0_TEMP_1      | disabled          | ns
+PSU0_VIN         | disabled          | ns
+PSU0_VOUT        | disabled          | ns
+CPU0_ProcHot     | 0x00              | ok
+CPU1_ProcHot     | 0x00              | ok
+PVCCD_P0_VRHOT   | 0x00              | ok
+PVCCD_P1_VRHOT   | 0x00              | ok
+CPU0_Margin      | 35 degrees C      | ok
+CPU1_Margin      | 34 degrees C      | ok
+Soft_Sys_Fault   | 0x00              | ok
+System_Fault     | 0x00              | ok
+INFAON_P0_VRHOT  | 0x00              | ok
+INFAON_P1_VRHOT  | 0x00              | ok
+PVCCIN_P0_VRHOT  | 0x00              | ok
+PVCCIN_P1_VRHOT  | 0x00              | ok
+NMI_EVENT        | 0x00              | ok
+CPU_Err0         | 0x00              | ok
+CPU0_Thermaltrip | 0x00              | ok
+CPU1_Thermaltrip | 0x00              | ok
+CPU_Err1         | 0x00              | ok
+VBAT             | 3.06 Volts        | ok
+P5V              | 4.98 Volts        | ok
+P12V             | 11.94 Volts       | ok
+P3V3             | 3.30 Volts        | ok
+P1V05_PCH_AUX    | 1.05 Volts        | ok
+PVNN_PCH_AUX     | 1.05 Volts        | ok
+PVCCFA_EHV_CPU0  | 1.80 Volts        | ok
+PVCCD_HV_CPU0    | 1.15 Volts        | ok
+PVCCIN_CPU0      | 1.78 Volts        | ok
+PVCCFA_FIVRA_P0  | 1.83 Volts        | ok
+PVNN_MAIN_CPU0   | 1.01 Volts        | ok
+PVCCFA_EHV_CPU1  | 1.81 Volts        | ok
+PVCCD_HV_CPU1    | 1.15 Volts        | ok
+PVCCIN_CPU1      | 1.78 Volts        | ok
+PVCCFA_FIVRA_P1  | 1.83 Volts        | ok
+PVNN_MAIN_CPU1   | 1 Volts           | ok
+CPU_Err2         | 0x00              | ok
+S3_Asserted      | 0x00              | ok
+S4_Asserted      | 0x00              | ok
+MB_Inlet_Alert   | 0x00              | ok
+MB_Temp_Alert    | 0x00              | ok
+CPU0_SKTOCC      | 0x00              | ok
+CPU1_SKTOCC      | 0x00              | ok
+BMC_Pwd_Clear    | 0x00              | ok
+PDB0_CONT_PRSNT  | 0x00              | ok
+PDB1_CONT_PRSNT  | 0x00              | ok
+BMC_PWM_EN       | 0x00              | ok
+SMI_ACTIVE       | 0x00              | ok
+PVCCIN_P0        | 45 degrees C      | ok
+PVCCIN_P1        | 47 degrees C      | ok
+PSU1_PIN         | 253.10 Watts      | ok
+MAIN_HS_IIN      | 19.70 Amps        | ok
+CPU0_Temp        | 51 degrees C      | ok
+CPU1_Temp        | 52 degrees C      | ok
+FAN_PRSNT0       | 0x00              | ok
+FAN_PRSNT1       | 0x00              | ok
+FAN_PRSNT2       | 0x00              | ok
+FAN_PRSNT3       | 0x00              | ok
+FAN_PRSNT4       | 0x00              | ok
+FAN_PRSNT5       | 0x00              | ok
+MB_0_Temp        | 32 degrees C      | ok
+MB_1_Temp        | 31 degrees C      | ok
+MB_2_Temp        | 38 degrees C      | ok
+MB_3_Temp        | 44 degrees C      | ok
+PCH_Die_Temp     | 33 degrees C      | ok
+DIMM_A_Temp      | 36 degrees C      | ok
+DIMM_B_Temp      | disabled          | ns
+DIMM_C_Temp      | disabled          | ns
+DIMM_D_Temp      | disabled          | ns
+DIMM_E_Temp      | disabled          | ns
+DIMM_F_Temp      | disabled          | ns
+DIMM_G_Temp      | disabled          | ns
+DIMM_H_Temp      | disabled          | ns
+DIMM_J_Temp      | 34 degrees C      | ok
+DIMM_K_Temp      | disabled          | ns
+DIMM_L_Temp      | disabled          | ns
+DIMM_M_Temp      | disabled          | ns
+DIMM_N_Temp      | disabled          | ns
+DIMM_P_Temp      | disabled          | ns
+DIMM_R_Temp      | disabled          | ns
+DIMM_T_Temp      | disabled          | ns
+PSU1_POUT        | 225.70 Watts      | ok
+PSU1_VIN         | 216.70 Volts      | ok
+PSU1_VOUT        | 11.87 Volts       | ok
+Fan0_Outlet      | 0 RPM             | ok
+Fan0_Inlet       | 0 RPM             | ok
+Fan1_Outlet      | 0 RPM             | ok
+Fan1_Inlet       | 0 RPM             | ok
+Fan2_Outlet      | 0 RPM             | ok
+Fan2_Inlet       | 0 RPM             | ok
+Fan3_Outlet      | 0 RPM             | ok
+Fan3_Inlet       | 0 RPM             | ok
+Fan4_Outlet      | 0 RPM             | ok
+Fan4_Inlet       | 0 RPM             | ok
+Fan5_Outlet      | 0 RPM             | ok
+Fan5_Inlet       | 0 RPM             | ok
+PSU1_IIN         | 1.15 Amps         | ok
+PSU1_IOUT        | 18.94 Amps        | ok
+PSU1_TEMP_0      | 28 degrees C      | ok
+PSU1_TEMP_1      | 39 degrees C      | ok
+PSU1_Fan_Speed   | 7272 RPM          | ok
+PDB0_P5V_PG      | no reading        | ns
+PSU0_DETECT      | no reading        | ns
+PSU0_PRESENT     | no reading        | ns
+PSU0_PWROK       | no reading        | ns
+ALERT_PMBUS_PSU0 | no reading        | ns
+PDB1_P5V_PG      | 0x00              | ok
+PSU1_DETECT      | 0x00              | ok
+PSU1_PRESENT     | 0x00              | ok
+PSU1_PWROK       | 0x00              | ok
+CORE_HS_PG       | 0x00              | ok
+FAN_HS_PG        | 0x00              | ok
+STBY_HS_PG       | 0x00              | ok
+CORE_HS_Fault    | 0x00              | ok
+FAN_HS_Fault     | 0x00              | ok
+STBY_HS_Fault    | 0x00              | ok
+ALERT_PMBUS_PSU1 | 0x00              | ok
+CPU_PWRGD        | 0x00              | ok
+MAIN_HS_VIN      | 12.07 Volts       | ok
+FAN_HS_VIN       | 12.00 Volts       | ok
+STBY_HS_VIN      | 11.93 Volts       | ok
+FAN_HS_IIN       | 0.30 Amps         | ok
+STBY_HS_IIN      | 1.04 Amps         | ok
+TIMER1_ACTV      | disabled          | ns
+FRB2_ACTV        | disabled          | ns
+OEM_BT_DIS       | disabled          | ns
+WDT_Timer        | 0x00              | ok
+BIOSPostStart    | 0x00              | ok
+BIOSPostTimeout  | 0x00              | ok
+BIOSPostComplete | 0x00              | ok
+BIOS_Select      | 0x00              | ok
+BMC_ECC_Rcvr     | 0 correctable e   | ok
+BMC_ECC_UnRcvr   | 0 uncorrectable   | ok
+CPU0_VR_Fault    | 0x00              | ok
+CPU1_VR_Fault    | 0x00              | ok
+Platform_Reset   | 0x00              | ok
+CPU_MSMI         | 0x00              | ok
+Power_Button     | 0x00              | ok
+Reset_Button     | 0x00              | ok
+PSU0_Status      | disabled          | ns
+PSU1_Status      | 0x00              | ok
+EvtLogDisabled   | disabled          | ns
+motherboard      | Log FRU @00h 07.1 | ok
+powersupply0     | Log FRU @01h 0a.1 | ok
+powersupply1     | Log FRU @02h 0a.1 | ok
+   1 | 08/22/2024 | 06:19:34 | Event Logging Disabled #0xf0 | Log area reset/cleared | Asserted
+Record_BMC test done..
+2024-08-22 02:37:18
+
+Escape time: 12 
+
+2024-08-22 02:37:18
+Analysis_BMC_Dmesg test start..
+Analysis_BMC_Dmesg is going
+Analysis_BMC_Dmesg test done..
+2024-08-22 02:37:20
+
+Escape time: 2 
+
+====== 1 ======
+ 
+
+=====================
+=======      ========
+======= PASS ========
+=======      ========
+=====================
+
+Clearing SEL.  Please allow a few seconds to erase.
+
+RTC DC off after 60 seconds
+......................^C
+root@srd7-sqa:~/system_stress# 
+
+

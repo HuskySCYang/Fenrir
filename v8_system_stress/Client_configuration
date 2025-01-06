@@ -1,0 +1,17 @@
+#================ SUT =====================
+sled=1
+os_ip_1=192.168.2.52
+os_NIC_1=ps_eth4
+os_user_1=root
+os_password_1=pxeserver
+
+#PJN: Project Name
+PJN=Zeus
+wait_boot_time=600
+shutdown_time=300
+ac_off_time=70
+DC_OFF_duration=70
+
+
+
+

@@ -1,0 +1,14 @@
+>>> from collections import Counter
+>>> data = [1,2,2,3,3,3]
+>>> count = Counter(data)
+>>> print(count)
+Counter({3: 3, 2: 2, 1: 1})
+>>> print(count[2])
+2
+>>> print(count[1])
+1
+>>> print(count[3])
+3
+>>> 
+
+

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/UUT_loop_main.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=script_name
+Comment=
+Name[en_US]=UUT_loop_main.sh.desktop.sample

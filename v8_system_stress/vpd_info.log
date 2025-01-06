@@ -1,0 +1,366 @@
+
+	Capabilities: [48] Vital Product Data
+		Product Name: NVIDIA ConnectX-7 Adapter Card, 200GbE / NDR200, Dual-port QSFP112, PCIe 5.0x16 with x16 PCIe extension option, Crypto Disabled, Secure Boot Enabled                                  
+		Read-only fields:
+			[PN] Part number: MCX755106AS-HEAT         
+			[EC] Engineering changes: A7
+			[V2] Vendor specific: MCX755106AS-HEAT         
+			[SN] Serial number: MT2332XZ0A3B   
+			[V3] Vendor specific: 9ced858c1b3fee118000a088c234c6a6
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX755106A      
+			[V0] Vendor specific: PCIeGen5 x16 
+			[VU] Vendor specific: MT2332XZ0A3BMLNXS0D0F0 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		Product Name: NVIDIA ConnectX-7 Adapter Card, 200GbE / NDR200, Dual-port QSFP112, PCIe 5.0x16 with x16 PCIe extension option, Crypto Disabled, Secure Boot Enabled                                  
+		Read-only fields:
+			[PN] Part number: MCX755106AS-HEAT         
+			[EC] Engineering changes: A7
+			[V2] Vendor specific: MCX755106AS-HEAT         
+			[SN] Serial number: MT2332XZ0A3B   
+			[V3] Vendor specific: 9ced858c1b3fee118000a088c234c6a6
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX755106A      
+			[V0] Vendor specific: PCIeGen5 x16 
+			[VU] Vendor specific: MT2332XZ0A3BMLNXS0D0F1 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		Product Name: ConnectX-6 Lx EN adapter card, 25GbE, Dual-port SFP28, PCIe 4.0 x8, Secure Boot, No Crypto                                                                                            
+		Read-only fields:
+			[PN] Part number: MCX631102AS-ADAT         
+			[EC] Engineering changes: AA
+			[V2] Vendor specific: MCX631102AS-ADAT         
+			[SN] Serial number: MT2225X14205   
+			[V3] Vendor specific: 36a26d75c9f5ec118000e8ebd34962fc
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX631102A      
+			[V0] Vendor specific: PCIeGen4 x8  
+			[VU] Vendor specific: MT2225X14205MLNXS0D0F0 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		Product Name: ConnectX-6 Lx EN adapter card, 25GbE, Dual-port SFP28, PCIe 4.0 x8, Secure Boot, No Crypto                                                                                            
+		Read-only fields:
+			[PN] Part number: MCX631102AS-ADAT         
+			[EC] Engineering changes: AA
+			[V2] Vendor specific: MCX631102AS-ADAT         
+			[SN] Serial number: MT2225X14205   
+			[V3] Vendor specific: 36a26d75c9f5ec118000e8ebd34962fc
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX631102A      
+			[V0] Vendor specific: PCIeGen4 x8  
+			[VU] Vendor specific: MT2225X14205MLNXS0D0F1 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		Product Name: ConnectX-6 Dx EN adapter card, 100GbE, Dual-port QSFP56, PCIe 4.0 x16, Secure Boot, No Crypto                                                                                         
+		Read-only fields:
+			[PN] Part number: MCX623106AS-CDAT         
+			[EC] Engineering changes: AC
+			[V2] Vendor specific: MCX623106AS-CDAT         
+			[SN] Serial number: MT2234J20681   
+			[V3] Vendor specific: d22241edb01eed118000b83fd2130a32
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX623106A      
+			[V0] Vendor specific: PCIeGen4 x16 
+			[VU] Vendor specific: MT2234J20681MLNXS0D0F0 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		Product Name: ConnectX-6 Dx EN adapter card, 100GbE, Dual-port QSFP56, PCIe 4.0 x16, Secure Boot, No Crypto                                                                                         
+		Read-only fields:
+			[PN] Part number: MCX623106AS-CDAT         
+			[EC] Engineering changes: AC
+			[V2] Vendor specific: MCX623106AS-CDAT         
+			[SN] Serial number: MT2234J20681   
+			[V3] Vendor specific: d22241edb01eed118000b83fd2130a32
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX623106A      
+			[V0] Vendor specific: PCIeGen4 x16 
+			[VU] Vendor specific: MT2234J20681MLNXS0D0F1 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		Product Name: NVIDIA ConnectX-7 HHHL Adapter Card, 25/50GbE, Quad-Port SFP56, PCIe 4.0 x16, Crypto Disabled, Secure Boot Enabled                                                                    
+		Read-only fields:
+			[PN] Part number: MCX713104AS-ADAT         
+			[EC] Engineering changes: A2
+			[V2] Vendor specific: MCX713104AS-ADAT         
+			[SN] Serial number: MT2310XZ03PJ   
+			[V3] Vendor specific: 4c5883a14ac0ed118000946dae64f082
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX713104A      
+			[V0] Vendor specific: PCIeGen4 x16 
+			[VU] Vendor specific: MT2310XZ03PJMLNXS0D0F0 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		Product Name: NVIDIA ConnectX-7 HHHL Adapter Card, 25/50GbE, Quad-Port SFP56, PCIe 4.0 x16, Crypto Disabled, Secure Boot Enabled                                                                    
+		Read-only fields:
+			[PN] Part number: MCX713104AS-ADAT         
+			[EC] Engineering changes: A2
+			[V2] Vendor specific: MCX713104AS-ADAT         
+			[SN] Serial number: MT2310XZ03PJ   
+			[V3] Vendor specific: 4c5883a14ac0ed118000946dae64f082
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX713104A      
+			[V0] Vendor specific: PCIeGen4 x16 
+			[VU] Vendor specific: MT2310XZ03PJMLNXS0D0F1 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		Product Name: NVIDIA ConnectX-7 HHHL Adapter Card, 25/50GbE, Quad-Port SFP56, PCIe 4.0 x16, Crypto Disabled, Secure Boot Enabled                                                                    
+		Read-only fields:
+			[PN] Part number: MCX713104AS-ADAT         
+			[EC] Engineering changes: A2
+			[V2] Vendor specific: MCX713104AS-ADAT         
+			[SN] Serial number: MT2310XZ03PJ   
+			[V3] Vendor specific: 4c5883a14ac0ed118000946dae64f082
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX713104A      
+			[V0] Vendor specific: PCIeGen4 x16 
+			[VU] Vendor specific: MT2310XZ03PJMLNXS0D0F2 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		Product Name: NVIDIA ConnectX-7 HHHL Adapter Card, 25/50GbE, Quad-Port SFP56, PCIe 4.0 x16, Crypto Disabled, Secure Boot Enabled                                                                    
+		Read-only fields:
+			[PN] Part number: MCX713104AS-ADAT         
+			[EC] Engineering changes: A2
+			[V2] Vendor specific: MCX713104AS-ADAT         
+			[SN] Serial number: MT2310XZ03PJ   
+			[V3] Vendor specific: 4c5883a14ac0ed118000946dae64f082
+			[VA] Vendor specific: MLX:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0:MODL=CX713104A      
+			[V0] Vendor specific: PCIeGen4 x16 
+			[VU] Vendor specific: MT2310XZ03PJMLNXS0D0F3 
+			[RV] Reserved: checksum good, 1 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		End
+
+
+	Capabilities: [50] Vital Product Data
+		Product Name: Broadcom NetXtreme-E Dual-port 100Gb Ethernet PCIe Adapter
+		Read-only fields:
+			[PN] Part number: BCM957508-P2100G
+			[MN] Manufacture ID: 14E4
+			[V0] Vendor specific: 221.1.28.0
+			[V1] Vendor specific: 221.0.109.0
+			[V3] Vendor specific: 221.0.117.0
+			[V6] Vendor specific: 221.0.109.0
+			[V7] Vendor specific: 221.0.109.0
+			[V8] Vendor specific: 221.0.117.0
+			[V9] Vendor specific: 221.0.109.0
+			[VB] Vendor specific: REV026DEV000
+			[SN] Serial number: P210023240005BFG
+			[RV] Reserved: checksum good, 94 byte(s) reserved
+		End
+
+
+	Capabilities: [50] Vital Product Data
+		Product Name: Broadcom NetXtreme-E Dual-port 100Gb Ethernet PCIe Adapter
+		Read-only fields:
+			[PN] Part number: BCM957508-P2100G
+			[MN] Manufacture ID: 14E4
+			[V0] Vendor specific: 221.1.28.0
+			[V1] Vendor specific: 221.0.109.0
+			[V3] Vendor specific: 221.0.117.0
+			[V6] Vendor specific: 221.0.109.0
+			[V7] Vendor specific: 221.0.109.0
+			[V8] Vendor specific: 221.0.117.0
+			[V9] Vendor specific: 221.0.109.0
+			[VB] Vendor specific: REV026DEV000
+			[SN] Serial number: P210023240005BFG
+			[RV] Reserved: checksum good, 94 byte(s) reserved
+		End
+
+
+	Capabilities: [f8] Vital Product Data
+		Product Name: Emulex LPe37002-S4 2-Port 32Gb Fibre Channel Adapter
+		Read-only fields:
+			[PN] Part number: LPE37002-S4
+			[SN] Serial number: FP30634909
+			[V0] Vendor specific: FP30634909
+			[V1] Vendor specific: Emulex LPe37002-S4 2-Port 32Gb Fibre Channel Adapter
+			[V2] Vendor specific: LPe37002-S4
+			[V7] Vendor specific: V:1
+			[RV] Reserved: checksum good, 78 byte(s) reserved
+		End
+
+
+	Capabilities: [f8] Vital Product Data
+		Product Name: Emulex LPe37002-S4 2-Port 32Gb Fibre Channel Adapter
+		Read-only fields:
+			[PN] Part number: LPE37002-S4
+			[SN] Serial number: FP30634909
+			[V0] Vendor specific: FP30634909
+			[V1] Vendor specific: Emulex LPe37002-S4 2-Port 32Gb Fibre Channel Adapter
+			[V2] Vendor specific: LPe37002-S4
+			[V7] Vendor specific: V:1
+			[RV] Reserved: checksum good, 78 byte(s) reserved
+		End
+
+
+	Capabilities: [50] Vital Product Data
+		Product Name: Broadcom NetXtreme E-Series Quad-port 25Gb SFP28 PCIe Ethernet Adapter
+		Read-only fields:
+			[PN] Part number: BCM957504-P425G
+			[MN] Manufacture ID: 14E4
+			[V0] Vendor specific: 222.1.78.0
+			[V1] Vendor specific: 222.0.153.0
+			[V3] Vendor specific: 222.0.158.0
+			[V6] Vendor specific: 222.0.153.0
+			[V7] Vendor specific: 222.0.153.0
+			[V9] Vendor specific: 222.0.153.0
+			[VB] Vendor specific: REV018DEV1058
+			[SN] Serial number: P425G2250005YGFG
+			[RV] Reserved: checksum good, 96 byte(s) reserved
+		End
+
+
+	Capabilities: [50] Vital Product Data
+		Product Name: Broadcom NetXtreme E-Series Quad-port 25Gb SFP28 PCIe Ethernet Adapter
+		Read-only fields:
+			[PN] Part number: BCM957504-P425G
+			[MN] Manufacture ID: 14E4
+			[V0] Vendor specific: 222.1.78.0
+			[V1] Vendor specific: 222.0.153.0
+			[V3] Vendor specific: 222.0.158.0
+			[V6] Vendor specific: 222.0.153.0
+			[V7] Vendor specific: 222.0.153.0
+			[V9] Vendor specific: 222.0.153.0
+			[VB] Vendor specific: REV018DEV1058
+			[SN] Serial number: P425G2250005YGFG
+			[RV] Reserved: checksum good, 96 byte(s) reserved
+		End
+
+
+	Capabilities: [50] Vital Product Data
+		Product Name: Broadcom NetXtreme E-Series Quad-port 25Gb SFP28 PCIe Ethernet Adapter
+		Read-only fields:
+			[PN] Part number: BCM957504-P425G
+			[MN] Manufacture ID: 14E4
+			[V0] Vendor specific: 222.1.78.0
+			[V1] Vendor specific: 222.0.153.0
+			[V3] Vendor specific: 222.0.158.0
+			[V6] Vendor specific: 222.0.153.0
+			[V7] Vendor specific: 222.0.153.0
+			[V9] Vendor specific: 222.0.153.0
+			[VB] Vendor specific: REV018DEV1058
+			[SN] Serial number: P425G2250005YGFG
+			[RV] Reserved: checksum good, 96 byte(s) reserved
+		End
+
+
+	Capabilities: [50] Vital Product Data
+		Product Name: Broadcom NetXtreme E-Series Quad-port 25Gb SFP28 PCIe Ethernet Adapter
+		Read-only fields:
+			[PN] Part number: BCM957504-P425G
+			[MN] Manufacture ID: 14E4
+			[V0] Vendor specific: 222.1.78.0
+			[V1] Vendor specific: 222.0.153.0
+			[V3] Vendor specific: 222.0.158.0
+			[V6] Vendor specific: 222.0.153.0
+			[V7] Vendor specific: 222.0.153.0
+			[V9] Vendor specific: 222.0.153.0
+			[VB] Vendor specific: REV018DEV1058
+			[SN] Serial number: P425G2250005YGFG
+			[RV] Reserved: checksum good, 96 byte(s) reserved
+		End
+
+
+	Capabilities: [f8] Vital Product Data
+		Product Name: Emulex LPe37004-S4-LP 4-Port 32Gb Fibre Channel Adapter
+		Read-only fields:
+			[PN] Part number: LPe37004-S4-LP
+			[SN] Serial number: FP32030200
+			[V0] Vendor specific: FP32030200
+			[V1] Vendor specific: Emulex LPe37004-S4-LP 4-Port 32Gb Fibre Channel Adapter
+			[V2] Vendor specific: LPe37004-S4-LP
+			[V7] Vendor specific: V:1
+			[RV] Reserved: checksum good, 66 byte(s) reserved
+		End
+
+
+	Capabilities: [f8] Vital Product Data
+		Product Name: Emulex LPe37004-S4-LP 4-Port 32Gb Fibre Channel Adapter
+		Read-only fields:
+			[PN] Part number: LPe37004-S4-LP
+			[SN] Serial number: FP32030200
+			[V0] Vendor specific: FP32030200
+			[V1] Vendor specific: Emulex LPe37004-S4-LP 4-Port 32Gb Fibre Channel Adapter
+			[V2] Vendor specific: LPe37004-S4-LP
+			[V7] Vendor specific: V:1
+			[RV] Reserved: checksum good, 66 byte(s) reserved
+		End
+
+
+	Capabilities: [f8] Vital Product Data
+		Product Name: Emulex LPe37004-S4-LP 4-Port 32Gb Fibre Channel Adapter
+		Read-only fields:
+			[PN] Part number: LPe37004-S4-LP
+			[SN] Serial number: FP32030200
+			[V0] Vendor specific: FP32030200
+			[V1] Vendor specific: Emulex LPe37004-S4-LP 4-Port 32Gb Fibre Channel Adapter
+			[V2] Vendor specific: LPe37004-S4-LP
+			[V7] Vendor specific: V:1
+			[RV] Reserved: checksum good, 66 byte(s) reserved
+		End
+
+
+	Capabilities: [f8] Vital Product Data
+		Product Name: Emulex LPe37004-S4-LP 4-Port 32Gb Fibre Channel Adapter
+		Read-only fields:
+			[PN] Part number: LPe37004-S4-LP
+			[SN] Serial number: FP32030200
+			[V0] Vendor specific: FP32030200
+			[V1] Vendor specific: Emulex LPe37004-S4-LP 4-Port 32Gb Fibre Channel Adapter
+			[V2] Vendor specific: LPe37004-S4-LP
+			[V7] Vendor specific: V:1
+			[RV] Reserved: checksum good, 66 byte(s) reserved
+		End
+
+
+	Capabilities: [f8] Vital Product Data
+		Product Name: Emulex LPe37002-S4 2-Port 32Gb Fibre Channel Adapter
+		Read-only fields:
+			[PN] Part number: LPE37002-S4
+			[SN] Serial number: FP21728100
+			[V0] Vendor specific: FP21728100
+			[V1] Vendor specific: Emulex LPe37002-S4 2-Port 32Gb Fibre Channel Adapter
+			[V2] Vendor specific: LPe37002-S4
+			[V7] Vendor specific: V:1
+			[RV] Reserved: checksum good, 78 byte(s) reserved
+		End
+
+
+	Capabilities: [f8] Vital Product Data
+		Product Name: Emulex LPe37002-S4 2-Port 32Gb Fibre Channel Adapter
+		Read-only fields:
+			[PN] Part number: LPE37002-S4
+			[SN] Serial number: FP21728100
+			[V0] Vendor specific: FP21728100
+			[V1] Vendor specific: Emulex LPe37002-S4 2-Port 32Gb Fibre Channel Adapter
+			[V2] Vendor specific: LPe37002-S4
+			[V7] Vendor specific: V:1
+			[RV] Reserved: checksum good, 78 byte(s) reserved
+		End
+
+
+	Capabilities: [48] Vital Product Data
+		End
+

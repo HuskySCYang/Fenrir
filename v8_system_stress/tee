@@ -1,0 +1,92 @@
+Power_Unit       | 0x00              | ok
+CPU0_Present     | 0x80              | ok
+BP1_Present      | 0x02              | ok
+BP2_Present      | 0x02              | ok
+WSSD1_Present    | 0x01              | ok
+WSSD2_Present    | 0x01              | ok
+WSSD3_Present    | 0x01              | ok
+WSSD4_Present    | 0x01              | ok
+LEDBoard_Present | 0x02              | ok
+CPU0_DTS_Temp    | 41 degrees C      | ok
+CPU0_Die_Temp    | 41 degrees C      | ok
+CPU0_Margin      | -44 degrees C     | ok
+MB_Inlet_Temp    | 36 degrees C      | ok
+MB_Rear_Temp     | 36 degrees C      | ok
+LEDB_Rear_Temp   | 35 degrees C      | ok
+LEDB_Inlet_Temp  | 37 degrees C      | ok
+LM75_LED_Alert   | 0x00              | ok
+PCH_Die_Temp     | 34 degrees C      | ok
+PCH_ThermalTrip  | 0x00              | ok
+DIMM_A_Temp      | 31 degrees C      | ok
+DIMM_B_Temp      | 33 degrees C      | ok
+DIMM_C_Temp      | 34 degrees C      | ok
+DIMM_D_Temp      | 33 degrees C      | ok
+DIMM_E_Temp      | 32 degrees C      | ok
+DIMM_F_Temp      | 33 degrees C      | ok
+DIMM_G_Temp      | 33 degrees C      | ok
+DIMM_H_Temp      | 31 degrees C      | ok
+VBAT             | 3.04 Volts        | ok
+P5V_STBY         | 5.02 Volts        | ok
+P12V             | 12.03 Volts       | ok
+P3V3             | 3.30 Volts        | ok
+P1V05_PCH_AUX    | 1.05 Volts        | ok
+PVNN_PCH_AUX     | 1.05 Volts        | ok
+PVCCFA_EHV_CPU0  | 1.80 Volts        | ok
+PVCCD_HV_CPU0    | 1.16 Volts        | ok
+PVCCIN_CPU0      | 1.78 Volts        | ok
+PVCCFA_FIVRA_P0  | 1.81 Volts        | ok
+PVNN_MAIN_CPU0   | 1.02 Volts        | ok
+Core_HS_iin      | 29.47 Amps        | nc
+Core_HS_vin      | 12.29 Volts       | ok
+Standby_HS_iin   | 0.61 Amps         | ok
+Standby_HS_vin   | 12.29 Volts       | ok
+Core_HS_PG       | 0x02              | ok
+Standby_HS_PG    | 0x02              | ok
+CORE_HS_Fault    | 0x00              | ok
+STBY_HS_Fault    | 0x00              | ok
+CX6_OvrTmp_Warn  | 0x00              | ok
+CX6_OvrTmp_Shut  | 0x02              | ok
+CPU_PG           | 0x02              | ok
+P3V3_LED_VRD_PG  | 0x02              | ok
+P1V8_Standby_PG  | 0x02              | ok
+P1V2_CX6_PG      | 0x02              | ok
+P1V8_CX6_PG      | 0x02              | ok
+CPU0_ProcHot     | 0x00              | ok
+CPU0_ThermalTrip | 0x00              | ok
+CPU0_MemTrip     | 0x00              | ok
+CPU_Err0         | 0x00              | ok
+CPU_Err1         | 0x00              | ok
+CPU_Err2         | 0x00              | ok
+CPU_MSMI         | 0x00              | ok
+NMI_EVENT        | 0x00              | ok
+SMI_ACTIVE       | 0x00              | ok
+BMC_ECC_Rcvr     | 0 correctable e   | ok
+BMC_ECC_UnRcvr   | 0 uncorrectable   | ok
+PVCCIN_P0_VRHOT  | 0x00              | ok
+PVCCIN_P0_VRFLT  | 0x00              | ok
+PVCCIN_P0_PINALT | 0x00              | ok
+PVCCD_P0_VRHOT   | 0x00              | ok
+PVCCD_P0_VRFLT   | 0x00              | ok
+INFAON_P0_VRHOT  | 0x00              | ok
+INFAON_P0_VRFLT  | 0x00              | ok
+INFAON_P0_PNALT  | 0x00              | ok
+PVCCIN_P0_Temp   | 33 degrees C      | ok
+FIVRA_P0_Temp    | 33 degrees C      | ok
+FAON_P0_Temp     | 39 degrees C      | ok
+FA_EHV_P0_Temp   | 37 degrees C      | ok
+PVCCD_P0_Temp    | 38 degrees C      | ok
+Platform_Reset   | 0x00              | ok
+BIOSPostStart    | 0x02              | ok
+BIOSPostTimeout  | 0x00              | ok
+BIOSPostComplete | 0x02              | ok
+OS_Booted        | 0x01              | ok
+OS_Shutdown      | 0x01              | ok
+S3_Asserted      | 0x00              | ok
+S4_Asserted      | 0x00              | ok
+WDT_Timer        | 0x01              | ok
+Power_Button     | 0x00              | ok
+Reset_Button     | 0x00              | ok
+Motherboard      | Log FRU @00h 07.1 | ok
+LED Board        | Log FRU @02h 11.1 | ok
+Basbrd Mgmt Ctlr | Dynamic MC @ 20h  | ok
+Mgmt Engine      | Static MC @ 2Ch   | ok
